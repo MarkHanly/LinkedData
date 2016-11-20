@@ -30,7 +30,6 @@ ssc install estout
 **************************
 ** Run the project code **
 **************************
-qui {
 
 	foreach prog in ///
 	1.ReadData 2.CreateDocumentation 3.PlotFigure1 	4.TabulateData 5.RunModels {
@@ -39,7 +38,6 @@ qui {
 			}
 	run "${dir}/LinkedData/Code/`prog'.do"
 	}
-	
-}
+
 
 

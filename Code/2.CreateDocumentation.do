@@ -9,7 +9,7 @@
 use "${dir}/LinkedData/Data/pizza.dta",clear
 
 log using "${dir}/LinkedData/Documentation/${datestr}_PizzaCodebook.log",replace
-
+noi {
 
 **********************************
 **		Dataset Description		**
@@ -42,5 +42,7 @@ local x = r(r)
 	else if `x' >10 {
 		summ `v'
 	}
-}	
+}
+	
+} /* Closes noisily */
 log close
