@@ -1,0 +1,24 @@
+# Example project for the Managing Linked Data Course
+# November 2016
+# Mark Hanly
+
+# Files
+
+# _ProjectControl
+Defines project marcos/imports additional Stata packages/Runs the individual programs
+
+# 1.ReadData
+Sets up the folder structure/reads in the project data
+
+# 2.CreateDocumentation
+Creates a text file with summay info on the dataset and variables
+
+
+# 3.PlotFigure1
+Creates a scatterplot of expenditure and log income, for men and women
+
+# 4.TabulateData
+Tabulates the variables by sex
+
+# 5.RunModels 	
+Runs a series of models and saves the model estimates as a table
