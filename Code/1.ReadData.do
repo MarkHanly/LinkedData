@@ -2,6 +2,9 @@
 *	Purpose:	Set up project subdirectories and read in data
 *	Author:		Mark Hanly	
 *	Date:		20th Nov 2016
+*	Input:		Online pizza dataset from 
+*				http://www.principlesofeconometrics.com/stata/pizza.dta
+*	Output:		LinkedData/Data/pizza.dta
 **************************************************************************
 
 
