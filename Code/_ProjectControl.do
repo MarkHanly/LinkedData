@@ -34,9 +34,9 @@ qui {
 
 	foreach prog in ///
 	1.ReadData 2.CreateDocumentation 3.PlotFigure1 	4.TabulateData 5.RunModels {
-		noi {
-		di "Running `prog'.do"
-		}
+			noi {
+			di "Running `prog'.do"
+			}
 	run "${dir}/LinkedData/Code/`prog'.do"
 	}
 	
