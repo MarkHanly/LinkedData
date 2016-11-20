@@ -9,6 +9,7 @@
 ***************************
 
 * Root directory for project
+* Change this location to the root folder where you have cloned the proect
 global dir "H:/Teaching/Managing Big Data/2016"
 
 * List of project subdirectories
