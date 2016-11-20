@@ -24,7 +24,7 @@ global datestr = subinstr("$date"," ", "-",.)
 ** Install extra packages **
 ****************************
 ssc install tabout
-ssc install estouts
+ssc install estout
 
 
 **************************
