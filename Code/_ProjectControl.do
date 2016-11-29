@@ -40,5 +40,7 @@ ssc install estout
 	run "${dir}/LinkedData/Code/`prog'.do"
 	}
 
-
+* Exit Stata
+clear
+exit, STATA
 
